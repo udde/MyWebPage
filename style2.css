@@ -1,0 +1,129 @@
+*{padding:0; margin:0;}
+        body{margin auto;}
+        /*html { 
+              background: url(vtXIcKg.jpg) no-repeat center center fixed; 
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+            }*/
+            .background {
+                /*position: ;
+                top:;*/
+                background-size: cover;
+    /*background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%9 !important;*/
+}
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+}
+
+.fullscreen {
+    width:100%;
+    min-height:100%;
+}
+/*.content-a {
+
+    display:table;
+}*/
+
+/*.content-b {
+
+    display:table-cell;
+    position:sticky;
+    top:10px;
+    vertical-align:middle;
+    text-align:center;
+}*/
+
+        .container{
+            margin:auto;
+            width: 80%;
+            max-width:960px;
+
+        }
+        .content{
+            margin-top: 90px;
+            font-size: 30px;
+        }
+        header {
+            width:100%;
+            top:0;
+            position:fixed;
+            background-color: #444;
+            opacity:0.2;
+            box-shadow: #777 0px 3px 10px;
+
+        }
+        header > div > a, header > div > a:visited{
+            margin-left:10px;
+            margin-right:10px;
+            margin-top:20px;
+            display: inline;
+            float:right;
+            text-decoration: none;
+            color:efefef;
+            font-size: 33px;
+        }
+        #logo{
+            margin:0 0 0 10px;
+            float:left;
+            font-size:66px;
+        }
+        .my-header{
+            background-color: #333;
+            /*opacity: 0.9;*/
+            
+            width: 100%;
+            padding: 4px 0;
+            margin: auto;
+            text-align: center;
+            position: relative;
+            top:200px;
+        }
+        
+        .header-top{
+            background: 0;
+            box-shadow:0 0 0 0;
+
+        }
+        .header-top > span{
+            border-color: transparent;
+        }
+        .header-top > span:hover{
+            cursor: pointer;
+            border-color: rgba(255, 255, 255, .5);
+            -webkit-background-clip: padding-box; /* for Safari */
+            background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+
+        }
+        .fixed {
+            position:fixed;
+            top:0;
+        }
+        .fixed > span:hover{
+            cursor: pointer;
+            opacity: 0.77;
+            color:#eee;
+        }
+        .my-header > span{
+            padding: 4px 12px;
+            border-style: solid;
+            border-width: 2px;
+            border-radius: 3px;
+            border-color: transparent;
+            font-family: helvetica;
+            font-weight: bold;
+            font-size: 40px;
+            color: #eee;
+            opacity: 0.5;
+            margin: 0 15px 0 15px;
+        } 
+        .section{
+            margin-top: 0;
+            margin-bottom: 50px;
+        }
